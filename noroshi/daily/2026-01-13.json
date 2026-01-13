@@ -1,0 +1,48 @@
+{
+  "counts": {
+    "CreateEvent": 2,
+    "PushEvent": 7
+  },
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-01-13T11:30:32Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": ""
+  },
+  "repos": [
+    {
+      "events": 7,
+      "repo": "KG-NINJA/AI-or-Not",
+      "url": "https://github.com/KG-NINJA/AI-or-Not"
+    },
+    {
+      "events": 2,
+      "repo": "KG-NINJA/Espejo-del-Sol",
+      "url": "https://github.com/KG-NINJA/Espejo-del-Sol"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": "Public GitHub activity (last 24h): 9 events across 2 repos.",
+  "warnings": [],
+  "window": {
+    "from": "2026-01-12T11:30:32Z",
+    "hours": 24,
+    "to": "2026-01-13T11:30:32Z"
+  }
+}

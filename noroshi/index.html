@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KGNINJA — NOROSHI Pulse</title>
+  <meta name="description" content="Daily public-only pulse for KGNINJA. Built to keep the hiring surface fresh and crawl-friendly." />
+
+  <link rel="stylesheet" href="../assets/style.css" />
+  <link rel="alternate" type="application/json" title="NOROSHI (JSON Feed)" href="../feed.json" />
+  <link rel="alternate" type="application/rss+xml" title="NOROSHI (RSS)" href="../rss.xml" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>NOROSHI</h1>
+        <div class="muted">A daily pulse that publishes a short, public-only activity summary + feeds.</div>
+      </div>
+      <nav>
+        <a href="../">Home</a>
+        <a href="../facts/">Facts</a>
+        <a href="../evidence/">Evidence</a>
+        <a href="./">NOROSHI</a>
+        <a href="../clarifications/">Clarifications</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Latest pulse</h2>
+        <div class="muted">Auto-generated (public-only). If empty, the first scheduled run hasn’t happened yet.</div>
+        <pre id="latest">Loading…</pre>
+        <div class="kv" style="margin-top:12px">
+          <span><a href="latest.json">latest.json</a></span>
+          <span><a href="latest.md">latest.md</a></span>
+          <span><a href="daily/">daily/</a></span>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Subscribe</h2>
+        <ul>
+          <li>JSON Feed: <a href="../feed.json">/feed.json</a></li>
+          <li>RSS: <a href="../rss.xml">/rss.xml</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Privacy</h2>
+        <ul>
+          <li>Summaries use only public GitHub activity and curated links.</li>
+          <li>No face photo, age, education, or confidential work is published here.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="muted">NOROSHI is part of the AIEO protocol: keep the canonical surface fresh and verifiable.</div>
+    </footer>
+  </div>
+
+  <script>
+  (async function () {
+    const el = document.getElementById('latest');
+    try {
+      const res = await fetch('latest.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const lines = [];
+      if (data.summary) lines.push(data.summary);
+      if (data.window && data.window.from && data.window.to) {
+        lines.push(`Window: ${data.window.from} → ${data.window.to}`);
+      }
+      if (data.counts && Object.keys(data.counts).length) {
+        lines.push(`Counts: ${JSON.stringify(data.counts)}`);
+      }
+      el.textContent = lines.join('\n') || JSON.stringify(data, null, 2);
+    } catch (err) {
+      el.textContent = 'No pulse yet.';
+    }
+  })();
+  </script>
+</body>
+</html>

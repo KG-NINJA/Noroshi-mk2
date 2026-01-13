@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "github_handle": "KG-NINJA",
+  "window_hours": 24,
+  "max_top_repos": 12,
+  "include_repos": [],
+  "exclude_repos": [],
+  "include_event_types": [],
+  "exclude_event_types": [],
+  "notes": "Curation controls: use exclude_repos/include_repos to broadcast only your preferred public signals. Keep this public-only."
+}

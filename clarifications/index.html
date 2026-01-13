@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>KGNINJA — Clarifications</title>
+  <meta name="description" content="Public clarifications to reduce misunderstandings in search and AI summaries." />
+
+  <link rel="stylesheet" href="../assets/style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Clarifications</h1>
+        <div class="muted">A public place to correct misunderstandings with evidence links.</div>
+      </div>
+      <nav>
+        <a href="../">Home</a>
+        <a href="../facts/">Facts</a>
+        <a href="../evidence/">Evidence</a>
+        <a href="../noroshi/">NOROSHI</a>
+        <a href="./">Clarifications</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <h2>Data</h2>
+        <ul>
+          <li>JSON: <a href="clarifications.json">clarifications.json</a></li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>Items</h2>
+        <div class="muted">If you found an incorrect AI/search summary, add a correction here (public-only, no personal data).</div>
+        <pre id="items">Loading…</pre>
+      </section>
+
+      <section class="card">
+        <h2>Rules</h2>
+        <ul>
+          <li>Only correct with verifiable evidence links.</li>
+          <li>Do not include private client names, internal URLs, or personal identifiers.</li>
+          <li>Prefer minimal, factual corrections that point back to <a href="../facts/">/facts/</a>.</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="muted">This page exists to reduce misinformation, not to reveal private details.</div>
+    </footer>
+  </div>
+
+  <script>
+  (async function () {
+    const el = document.getElementById('items');
+    try {
+      const res = await fetch('clarifications.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const data = await res.json();
+      const items = Array.isArray(data.items) ? data.items : [];
+      if (!items.length) {
+        el.textContent = 'No public clarifications yet.';
+        return;
+      }
+      el.textContent = JSON.stringify(items, null, 2);
+    } catch {
+      el.textContent = 'No data.';
+    }
+  })();
+  </script>
+</body>
+</html>
