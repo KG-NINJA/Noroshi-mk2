@@ -41,13 +41,13 @@
   },
   "resolved_urls": {
     "clarifications": "https://KG-NINJA.github.io/Noroshi-mk2/clarifications/",
-    "daily_json": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-01-16.json",
-    "daily_md": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-01-16.md",
+    "daily_json": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-01-17.json",
+    "daily_md": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-01-17.md",
     "facts": "https://KG-NINJA.github.io/Noroshi-mk2/facts/",
     "latest_json": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/latest.json"
   },
   "schema_version": "1.0",
   "site_url": "https://KG-NINJA.github.io/Noroshi-mk2",
   "type": "aieo.profile",
-  "updated_at": "2026-01-16T04:10:21Z"
+  "updated_at": "2026-01-17T04:03:18Z"
 }
