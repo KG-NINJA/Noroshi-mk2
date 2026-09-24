@@ -4,6 +4,13 @@
   "home_page_url": "https://KG-NINJA.github.io/Noroshi-mk2/",
   "items": [
     {
+      "content_text": "Public GitHub activity (last 24h): 3 events across 2 repos.",
+      "date_published": "2026-09-24T08:27:56Z",
+      "id": "noroshi-2026-09-24",
+      "title": "NOROSHI pulse — 2026-09-24",
+      "url": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-09-24.md"
+    },
+    {
       "content_text": "Public GitHub activity (last 24h): 5 events across 2 repos.",
       "date_published": "2026-09-23T08:35:12Z",
       "id": "noroshi-2026-09-23",
@@ -205,13 +212,6 @@
       "id": "noroshi-2026-08-26",
       "title": "NOROSHI pulse — 2026-08-26",
       "url": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-08-26.md"
-    },
-    {
-      "content_text": "Public GitHub activity (last 24h): 4 events across 2 repos.",
-      "date_published": "2026-08-25T03:59:15Z",
-      "id": "noroshi-2026-08-25",
-      "title": "NOROSHI pulse — 2026-08-25",
-      "url": "https://KG-NINJA.github.io/Noroshi-mk2/noroshi/daily/2026-08-25.md"
     }
   ],
   "title": "KGNINJA — NOROSHI",
