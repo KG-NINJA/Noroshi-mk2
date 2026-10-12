@@ -1,8 +1,7 @@
 {
   "counts": {
-    "CreateEvent": 4,
-    "PullRequestEvent": 4,
-    "PushEvent": 3
+    "CreateEvent": 1,
+    "PushEvent": 1
   },
   "evidence": [
     {
@@ -14,7 +13,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-11T10:00:50Z",
+  "generated_at": "2026-10-12T10:50:35Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -24,14 +23,9 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "27f04e5e8ea29b219537b31e58a967ff44663304"
+    "github_sha": "6c8f79634c153503b5c02a0d3c0ea125d4973760"
   },
   "repos": [
-    {
-      "events": 8,
-      "repo": "KG-NINJA/SUSANOWO",
-      "url": "https://github.com/KG-NINJA/SUSANOWO"
-    },
     {
       "events": 1,
       "repo": "KG-NINJA/AgentOS-KGNINJA",
@@ -39,21 +33,16 @@
     },
     {
       "events": 1,
-      "repo": "KG-NINJA/Osakatenki2",
-      "url": "https://github.com/KG-NINJA/Osakatenki2"
-    },
-    {
-      "events": 1,
-      "repo": "KG-NINJA/SuzumeBachiBlowdart",
-      "url": "https://github.com/KG-NINJA/SuzumeBachiBlowdart"
+      "repo": "KG-NINJA/SUSANOWO",
+      "url": "https://github.com/KG-NINJA/SUSANOWO"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 11 events across 4 repos.",
+  "summary": "Public GitHub activity (last 24h): 2 events across 2 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-10T10:00:50Z",
+    "from": "2026-10-11T10:50:35Z",
     "hours": 24,
-    "to": "2026-10-11T10:00:50Z"
+    "to": "2026-10-12T10:50:35Z"
   }
 }
