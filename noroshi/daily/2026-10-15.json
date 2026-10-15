@@ -1,0 +1,60 @@
+{
+  "counts": {
+    "CreateEvent": 4,
+    "IssueCommentEvent": 3,
+    "PullRequestEvent": 2,
+    "PushEvent": 1
+  },
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-10-15T08:18:13Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": "d2f7f6cfa7f190ebb6b122c98c6916b61a206509"
+  },
+  "repos": [
+    {
+      "events": 3,
+      "repo": "coinbase/cdp-sdk",
+      "url": "https://github.com/coinbase/cdp-sdk"
+    },
+    {
+      "events": 3,
+      "repo": "KG-NINJA/SUSANOWO",
+      "url": "https://github.com/KG-NINJA/SUSANOWO"
+    },
+    {
+      "events": 3,
+      "repo": "KG-NINJA/Vector-Arcade",
+      "url": "https://github.com/KG-NINJA/Vector-Arcade"
+    },
+    {
+      "events": 1,
+      "repo": "KG-NINJA/SuzumeBachiBlowdart",
+      "url": "https://github.com/KG-NINJA/SuzumeBachiBlowdart"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": "Public GitHub activity (last 24h): 10 events across 4 repos.",
+  "warnings": [],
+  "window": {
+    "from": "2026-10-14T08:18:13Z",
+    "hours": 24,
+    "to": "2026-10-15T08:18:13Z"
+  }
+}
