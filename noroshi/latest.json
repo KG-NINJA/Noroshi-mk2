@@ -1,8 +1,8 @@
 {
   "counts": {
-    "CreateEvent": 1,
-    "PullRequestEvent": 4,
-    "PushEvent": 2
+    "IssueCommentEvent": 1,
+    "PullRequestEvent": 2,
+    "PushEvent": 1
   },
   "evidence": [
     {
@@ -14,7 +14,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-16T08:11:12Z",
+  "generated_at": "2026-10-17T07:48:17Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -24,26 +24,31 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "be83f9989d9d4fe21da17b3083170c0a4e191e6d"
+    "github_sha": "7e2f9fef4d0bedce2a15900e8ece65b9e455677b"
   },
   "repos": [
     {
-      "events": 4,
+      "events": 2,
       "repo": "KG-NINJA/SUSANOWO",
       "url": "https://github.com/KG-NINJA/SUSANOWO"
     },
     {
-      "events": 3,
-      "repo": "KG-NINJA/HyperXosist-Agent",
-      "url": "https://github.com/KG-NINJA/HyperXosist-Agent"
+      "events": 1,
+      "repo": "coinbase/cdp-sdk",
+      "url": "https://github.com/coinbase/cdp-sdk"
+    },
+    {
+      "events": 1,
+      "repo": "KG-NINJA/AgentOS-KGNINJA",
+      "url": "https://github.com/KG-NINJA/AgentOS-KGNINJA"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 7 events across 2 repos.",
+  "summary": "Public GitHub activity (last 24h): 4 events across 3 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-15T08:11:12Z",
+    "from": "2026-10-16T07:48:17Z",
     "hours": 24,
-    "to": "2026-10-16T08:11:12Z"
+    "to": "2026-10-17T07:48:17Z"
   }
 }
