@@ -1,0 +1,34 @@
+{
+  "counts": {},
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-10-18T08:02:00Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": "95afa58f7635c121933f04caf4511b47baf4af10"
+  },
+  "repos": [],
+  "schema_version": "1.0",
+  "summary": "No qualifying public GitHub activity in the last 24h. Pulse kept alive.",
+  "warnings": [],
+  "window": {
+    "from": "2026-10-17T08:02:00Z",
+    "hours": 24,
+    "to": "2026-10-18T08:02:00Z"
+  }
+}
