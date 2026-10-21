@@ -1,9 +1,10 @@
 {
   "counts": {
-    "CreateEvent": 1,
-    "IssueCommentEvent": 1,
-    "PullRequestEvent": 6,
-    "PushEvent": 2
+    "CreateEvent": 2,
+    "IssueCommentEvent": 2,
+    "IssuesEvent": 2,
+    "PullRequestEvent": 5,
+    "PushEvent": 1
   },
   "evidence": [
     {
@@ -15,7 +16,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-20T08:33:05Z",
+  "generated_at": "2026-10-21T08:34:47Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -25,31 +26,31 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "9d45821a5d3b403cd56f4559392ed80f4b0e3de4"
+    "github_sha": "38aa08c87010868d05de134901a5cb941a2453c7"
   },
   "repos": [
     {
-      "events": 5,
-      "repo": "KG-NINJA/SuzumeBachiBlowdart",
-      "url": "https://github.com/KG-NINJA/SuzumeBachiBlowdart"
-    },
-    {
-      "events": 4,
+      "events": 6,
       "repo": "KG-NINJA/HyperXosist-Agent",
       "url": "https://github.com/KG-NINJA/HyperXosist-Agent"
     },
     {
+      "events": 5,
+      "repo": "KG-NINJA/anti-artex",
+      "url": "https://github.com/KG-NINJA/anti-artex"
+    },
+    {
       "events": 1,
-      "repo": "coinbase/cdp-sdk",
-      "url": "https://github.com/coinbase/cdp-sdk"
+      "repo": "KG-NINJA/mcp-security-evidence",
+      "url": "https://github.com/KG-NINJA/mcp-security-evidence"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 10 events across 3 repos.",
+  "summary": "Public GitHub activity (last 24h): 12 events across 3 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-19T08:33:05Z",
+    "from": "2026-10-20T08:34:47Z",
     "hours": 24,
-    "to": "2026-10-20T08:33:05Z"
+    "to": "2026-10-21T08:34:47Z"
   }
 }
