@@ -1,10 +1,8 @@
 {
   "counts": {
-    "CreateEvent": 2,
-    "IssueCommentEvent": 2,
-    "IssuesEvent": 2,
-    "PullRequestEvent": 5,
-    "PushEvent": 1
+    "CreateEvent": 1,
+    "IssueCommentEvent": 1,
+    "PullRequestEvent": 2
   },
   "evidence": [
     {
@@ -16,7 +14,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-21T08:34:47Z",
+  "generated_at": "2026-10-22T08:36:52Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -26,16 +24,11 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "38aa08c87010868d05de134901a5cb941a2453c7"
+    "github_sha": "84a8acc45b55dea3949e5bc9e909222a65f84da2"
   },
   "repos": [
     {
-      "events": 6,
-      "repo": "KG-NINJA/HyperXosist-Agent",
-      "url": "https://github.com/KG-NINJA/HyperXosist-Agent"
-    },
-    {
-      "events": 5,
+      "events": 2,
       "repo": "KG-NINJA/anti-artex",
       "url": "https://github.com/KG-NINJA/anti-artex"
     },
@@ -43,14 +36,19 @@
       "events": 1,
       "repo": "KG-NINJA/mcp-security-evidence",
       "url": "https://github.com/KG-NINJA/mcp-security-evidence"
+    },
+    {
+      "events": 1,
+      "repo": "VERITOKEN-xx/Veritoken",
+      "url": "https://github.com/VERITOKEN-xx/Veritoken"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 12 events across 3 repos.",
+  "summary": "Public GitHub activity (last 24h): 4 events across 3 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-20T08:34:47Z",
+    "from": "2026-10-21T08:36:52Z",
     "hours": 24,
-    "to": "2026-10-21T08:34:47Z"
+    "to": "2026-10-22T08:36:52Z"
   }
 }
