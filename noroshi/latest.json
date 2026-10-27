@@ -1,7 +1,6 @@
 {
   "counts": {
-    "PullRequestEvent": 2,
-    "PushEvent": 3
+    "PushEvent": 1
   },
   "evidence": [
     {
@@ -13,7 +12,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-26T08:56:07Z",
+  "generated_at": "2026-10-27T09:00:09Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -23,19 +22,9 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "cb399ea450692f32045ef5a6a1caf798bb7e4c7f"
+    "github_sha": "a16b90dd6f015eb7691305c013c908fac78b7c82"
   },
   "repos": [
-    {
-      "events": 2,
-      "repo": "KG-NINJA/Pon-De-Ring-Pay2",
-      "url": "https://github.com/KG-NINJA/Pon-De-Ring-Pay2"
-    },
-    {
-      "events": 2,
-      "repo": "KG-NINJA/SuzumeBachiBlowdart",
-      "url": "https://github.com/KG-NINJA/SuzumeBachiBlowdart"
-    },
     {
       "events": 1,
       "repo": "KG-NINJA/AgentOS-KGNINJA",
@@ -43,11 +32,11 @@
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 5 events across 3 repos.",
+  "summary": "Public GitHub activity (last 24h): 1 events across 1 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-25T08:56:07Z",
+    "from": "2026-10-26T09:00:09Z",
     "hours": 24,
-    "to": "2026-10-26T08:56:07Z"
+    "to": "2026-10-27T09:00:09Z"
   }
 }
