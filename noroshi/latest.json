@@ -1,6 +1,6 @@
 {
   "counts": {
-    "PullRequestEvent": 2
+    "PullRequestEvent": 1
   },
   "evidence": [
     {
@@ -12,7 +12,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-30T10:01:04Z",
+  "generated_at": "2026-10-31T09:39:26Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -22,26 +22,21 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "3d596b61c21451289e5eb0c7932dd93456c3d829"
+    "github_sha": "c433745ea7e436902fe89cdb67b3d315a7a0a44f"
   },
   "repos": [
     {
       "events": 1,
       "repo": "KG-NINJA/mcp-security-evidence",
       "url": "https://github.com/KG-NINJA/mcp-security-evidence"
-    },
-    {
-      "events": 1,
-      "repo": "KG-NINJA/SuzumeBachiBlowdart",
-      "url": "https://github.com/KG-NINJA/SuzumeBachiBlowdart"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 2 events across 2 repos.",
+  "summary": "Public GitHub activity (last 24h): 1 events across 1 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-10-29T10:01:04Z",
+    "from": "2026-10-30T09:39:26Z",
     "hours": 24,
-    "to": "2026-10-30T10:01:04Z"
+    "to": "2026-10-31T09:39:26Z"
   }
 }
