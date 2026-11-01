@@ -1,7 +1,5 @@
 {
-  "counts": {
-    "PullRequestEvent": 1
-  },
+  "counts": {},
   "evidence": [
     {
       "label": "GitHub profile",
@@ -12,7 +10,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-10-31T09:39:26Z",
+  "generated_at": "2026-11-01T10:28:03Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -22,21 +20,15 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "c433745ea7e436902fe89cdb67b3d315a7a0a44f"
+    "github_sha": "12fbec07ff12b38d28e58188da0403430227a026"
   },
-  "repos": [
-    {
-      "events": 1,
-      "repo": "KG-NINJA/mcp-security-evidence",
-      "url": "https://github.com/KG-NINJA/mcp-security-evidence"
-    }
-  ],
+  "repos": [],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 1 events across 1 repos.",
+  "summary": "No qualifying public GitHub activity in the last 24h. Pulse kept alive.",
   "warnings": [],
   "window": {
-    "from": "2026-10-30T09:39:26Z",
+    "from": "2026-10-31T10:28:03Z",
     "hours": 24,
-    "to": "2026-10-31T09:39:26Z"
+    "to": "2026-11-01T10:28:03Z"
   }
 }
