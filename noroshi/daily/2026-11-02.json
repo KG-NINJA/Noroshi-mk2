@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "PullRequestEvent": 3
+  },
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-11-02T11:07:53Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": "3b082aaa18e18d864ba66b80c07ed916a0c8685d"
+  },
+  "repos": [
+    {
+      "events": 3,
+      "repo": "KG-NINJA/sonic-assistant-bridge",
+      "url": "https://github.com/KG-NINJA/sonic-assistant-bridge"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": "Public GitHub activity (last 24h): 3 events across 1 repos.",
+  "warnings": [],
+  "window": {
+    "from": "2026-11-01T11:07:53Z",
+    "hours": 24,
+    "to": "2026-11-02T11:07:53Z"
+  }
+}
