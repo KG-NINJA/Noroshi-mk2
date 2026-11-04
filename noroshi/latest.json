@@ -1,5 +1,7 @@
 {
-  "counts": {},
+  "counts": {
+    "PullRequestEvent": 4
+  },
   "evidence": [
     {
       "label": "GitHub profile",
@@ -10,7 +12,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-11-03T10:53:03Z",
+  "generated_at": "2026-11-04T10:55:59Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -20,15 +22,21 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "5afa8b9abe14c63795c613fcf0e2e0ab1d8f253e"
+    "github_sha": "e0e88b1108cf23842697a53036a38856e6d58254"
   },
-  "repos": [],
+  "repos": [
+    {
+      "events": 4,
+      "repo": "KG-NINJA/x402-discoverability-2026-10",
+      "url": "https://github.com/KG-NINJA/x402-discoverability-2026-10"
+    }
+  ],
   "schema_version": "1.0",
-  "summary": "No qualifying public GitHub activity in the last 24h. Pulse kept alive.",
+  "summary": "Public GitHub activity (last 24h): 4 events across 1 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-11-02T10:53:03Z",
+    "from": "2026-11-03T10:55:59Z",
     "hours": 24,
-    "to": "2026-11-03T10:53:03Z"
+    "to": "2026-11-04T10:55:59Z"
   }
 }
