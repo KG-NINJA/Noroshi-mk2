@@ -1,6 +1,6 @@
 {
   "counts": {
-    "PullRequestEvent": 4
+    "PullRequestEvent": 2
   },
   "evidence": [
     {
@@ -12,7 +12,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-11-04T10:55:59Z",
+  "generated_at": "2026-11-05T10:56:44Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -22,21 +22,21 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "e0e88b1108cf23842697a53036a38856e6d58254"
+    "github_sha": "a2405b33a24785b45a1ec2b999d7037c8c518c21"
   },
   "repos": [
     {
-      "events": 4,
-      "repo": "KG-NINJA/x402-discoverability-2026-10",
-      "url": "https://github.com/KG-NINJA/x402-discoverability-2026-10"
+      "events": 2,
+      "repo": "KG-NINJA/KGchallengedskill",
+      "url": "https://github.com/KG-NINJA/KGchallengedskill"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 4 events across 1 repos.",
+  "summary": "Public GitHub activity (last 24h): 2 events across 1 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-11-03T10:55:59Z",
+    "from": "2026-11-04T10:56:44Z",
     "hours": 24,
-    "to": "2026-11-04T10:55:59Z"
+    "to": "2026-11-05T10:56:44Z"
   }
 }
