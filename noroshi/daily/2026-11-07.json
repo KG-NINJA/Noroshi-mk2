@@ -1,0 +1,42 @@
+{
+  "counts": {
+    "CreateEvent": 1
+  },
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-11-07T10:10:35Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": "fb7dba227c545b3a30dae9a0a79e01b20a7f120a"
+  },
+  "repos": [
+    {
+      "events": 1,
+      "repo": "KG-NINJA/SI-echo-speaker-microphone",
+      "url": "https://github.com/KG-NINJA/SI-echo-speaker-microphone"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": "Public GitHub activity (last 24h): 1 events across 1 repos.",
+  "warnings": [],
+  "window": {
+    "from": "2026-11-06T10:10:35Z",
+    "hours": 24,
+    "to": "2026-11-07T10:10:35Z"
+  }
+}
