@@ -1,0 +1,74 @@
+{
+  "counts": {
+    "IssueCommentEvent": 6,
+    "IssuesEvent": 5,
+    "PullRequestEvent": 1
+  },
+  "evidence": [
+    {
+      "label": "GitHub profile",
+      "url": "https://github.com/KG-NINJA"
+    },
+    {
+      "label": "Kaggle profile",
+      "url": "https://www.kaggle.com/kgninja"
+    }
+  ],
+  "generated_at": "2026-11-09T11:32:34Z",
+  "kind": "noroshi.pulse",
+  "privacy": {
+    "no_age": true,
+    "no_education_history": true,
+    "no_face_photo": true,
+    "public_only": true
+  },
+  "provenance": {
+    "generator": "scripts/noroshi.py",
+    "github_sha": "a29b42a99048f8daa13e9f6d91ee0689f3d95eb8"
+  },
+  "repos": [
+    {
+      "events": 4,
+      "repo": "dhyabi2/agent-conversations",
+      "url": "https://github.com/dhyabi2/agent-conversations"
+    },
+    {
+      "events": 2,
+      "repo": "jakemaxsigal-creator/base-intel-search-mcp",
+      "url": "https://github.com/jakemaxsigal-creator/base-intel-search-mcp"
+    },
+    {
+      "events": 2,
+      "repo": "notifuturo/vouch",
+      "url": "https://github.com/notifuturo/vouch"
+    },
+    {
+      "events": 1,
+      "repo": "BlockRunAI/blockrun-llm",
+      "url": "https://github.com/BlockRunAI/blockrun-llm"
+    },
+    {
+      "events": 1,
+      "repo": "eric-tijerina/trollbridge-mcp",
+      "url": "https://github.com/eric-tijerina/trollbridge-mcp"
+    },
+    {
+      "events": 1,
+      "repo": "x402-agentic/x402agentic-firewall",
+      "url": "https://github.com/x402-agentic/x402agentic-firewall"
+    },
+    {
+      "events": 1,
+      "repo": "xpaysh/awesome-x402",
+      "url": "https://github.com/xpaysh/awesome-x402"
+    }
+  ],
+  "schema_version": "1.0",
+  "summary": "Public GitHub activity (last 24h): 12 events across 7 repos.",
+  "warnings": [],
+  "window": {
+    "from": "2026-11-08T11:32:34Z",
+    "hours": 24,
+    "to": "2026-11-09T11:32:34Z"
+  }
+}
