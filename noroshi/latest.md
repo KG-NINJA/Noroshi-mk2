@@ -1,8 +1,8 @@
-# NOROSHI — 2026-11-13
+# NOROSHI — 2026-11-14
 
 No qualifying public GitHub activity in the last 24h. Pulse kept alive.
 
-Window: 2026-11-12T10:59:13Z → 2026-11-13T10:59:13Z
+Window: 2026-11-13T10:26:54Z → 2026-11-14T10:26:54Z
 
 ## Evidence
 - https://github.com/KG-NINJA
