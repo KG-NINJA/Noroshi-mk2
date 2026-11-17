@@ -1,8 +1,5 @@
 {
-  "counts": {
-    "IssueCommentEvent": 3,
-    "IssuesEvent": 1
-  },
+  "counts": {},
   "evidence": [
     {
       "label": "GitHub profile",
@@ -13,7 +10,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-11-16T11:19:23Z",
+  "generated_at": "2026-11-17T11:52:39Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -23,26 +20,15 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "4485fc0fd5b7800adc516cad6f7fde1e2a188982"
+    "github_sha": "ace3b67ba32a0f6a286905da03718a8fbe875120"
   },
-  "repos": [
-    {
-      "events": 2,
-      "repo": "dhyabi2/agent-conversations",
-      "url": "https://github.com/dhyabi2/agent-conversations"
-    },
-    {
-      "events": 2,
-      "repo": "pursekeeper/api",
-      "url": "https://github.com/pursekeeper/api"
-    }
-  ],
+  "repos": [],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 4 events across 2 repos.",
+  "summary": "No qualifying public GitHub activity in the last 24h. Pulse kept alive.",
   "warnings": [],
   "window": {
-    "from": "2026-11-15T11:19:23Z",
+    "from": "2026-11-16T11:52:39Z",
     "hours": 24,
-    "to": "2026-11-16T11:19:23Z"
+    "to": "2026-11-17T11:52:39Z"
   }
 }
