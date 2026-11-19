@@ -1,6 +1,8 @@
 {
   "counts": {
-    "PullRequestEvent": 2
+    "IssueCommentEvent": 2,
+    "IssuesEvent": 1,
+    "PullRequestEvent": 3
   },
   "evidence": [
     {
@@ -12,7 +14,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-11-18T11:42:58Z",
+  "generated_at": "2026-11-19T11:40:27Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -22,21 +24,41 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "51060d6c683ac9cebe93e9afb9c1b4f9476bc100"
+    "github_sha": "fe5db6dca1e49a0ab014a488d764e42a7fbd495a"
   },
   "repos": [
     {
       "events": 2,
-      "repo": "KG-NINJA/openai-to-z-gpt6.2",
-      "url": "https://github.com/KG-NINJA/openai-to-z-gpt6.2"
+      "repo": "xpaysh/awesome-x402",
+      "url": "https://github.com/xpaysh/awesome-x402"
+    },
+    {
+      "events": 1,
+      "repo": "Merit-Systems/x402scan",
+      "url": "https://github.com/Merit-Systems/x402scan"
+    },
+    {
+      "events": 1,
+      "repo": "notifuturo/vouch",
+      "url": "https://github.com/notifuturo/vouch"
+    },
+    {
+      "events": 1,
+      "repo": "punkpeye/awesome-mcp-servers",
+      "url": "https://github.com/punkpeye/awesome-mcp-servers"
+    },
+    {
+      "events": 1,
+      "repo": "x402-agentic/x402agentic-firewall",
+      "url": "https://github.com/x402-agentic/x402agentic-firewall"
     }
   ],
   "schema_version": "1.0",
-  "summary": "Public GitHub activity (last 24h): 2 events across 1 repos.",
+  "summary": "Public GitHub activity (last 24h): 6 events across 5 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-11-17T11:42:58Z",
+    "from": "2026-11-18T11:40:27Z",
     "hours": 24,
-    "to": "2026-11-18T11:42:58Z"
+    "to": "2026-11-19T11:40:27Z"
   }
 }
