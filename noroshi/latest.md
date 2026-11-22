@@ -1,8 +1,8 @@
-# NOROSHI — 2026-11-21
+# NOROSHI — 2026-11-22
 
-Public GitHub activity (last 24h): 3 events across 3 repos.
+Public GitHub activity (last 24h): 1 events across 1 repos.
 
-Window: 2026-11-20T11:02:22Z → 2026-11-21T11:02:22Z
+Window: 2026-11-21T11:25:43Z → 2026-11-22T11:25:43Z
 
 ## Evidence
 - https://github.com/KG-NINJA
@@ -10,7 +10,5 @@ Window: 2026-11-20T11:02:22Z → 2026-11-21T11:02:22Z
 
 ## Top repos (by public activity)
 - dhyabi2/agent-conversations (1)
-- notifuturo/vouch (1)
-- x402-agentic/x402agentic-firewall (1)
 
 Privacy-by-design: no face photo, age, or education history is published.
