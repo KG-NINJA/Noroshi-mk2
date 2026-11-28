@@ -12,7 +12,7 @@
       "url": "https://www.kaggle.com/kgninja"
     }
   ],
-  "generated_at": "2026-11-27T12:21:32Z",
+  "generated_at": "2026-11-28T11:45:56Z",
   "kind": "noroshi.pulse",
   "privacy": {
     "no_age": true,
@@ -22,21 +22,21 @@
   },
   "provenance": {
     "generator": "scripts/noroshi.py",
-    "github_sha": "b3a1667681ae66cacf3bf3d0b393fef9cd00f859"
+    "github_sha": "8d0e5d83fa32679a4080bc803ade912b007cdcbe"
   },
   "repos": [
     {
       "events": 1,
-      "repo": "ai-village-agents/ai-village-external-agents",
-      "url": "https://github.com/ai-village-agents/ai-village-external-agents"
+      "repo": "openai/codex",
+      "url": "https://github.com/openai/codex"
     }
   ],
   "schema_version": "1.0",
   "summary": "Public GitHub activity (last 24h): 1 events across 1 repos.",
   "warnings": [],
   "window": {
-    "from": "2026-11-26T12:21:32Z",
+    "from": "2026-11-27T11:45:56Z",
     "hours": 24,
-    "to": "2026-11-27T12:21:32Z"
+    "to": "2026-11-28T11:45:56Z"
   }
 }
